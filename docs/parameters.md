@@ -65,7 +65,7 @@ These parameters control the inversion, optimization, and motion behavior during
 | `eta` | float | 0 | Noise term (controls stochasticity in sampling). |
 | `tau` | float | 1.0 | The temperature parameter for softmax-merge relocation model. |
 | `points_scale` | float | 1.0 | Scales the influence of each control point’s motion. |
-| `fill_mode` | string | `'interpolation'` | Defines how to fill NULL regions after relocation (`interpolation`, `inpaint`, `none`). |
+| `fill_mode` | string | `'interpolation'` | Defines how to fill NULL regions after relocation (`interpolation`, `inpaint`, `0`). | 
 | `interpolation_model` | string | `'static'` | Model used to interpolate NULL regions after relocation (`'dynamic'`, `'static'`). Dynamic gives adaptive interpolation; static is simpler.|
 | `relocation_model` | string | `'first-win'` | Strategy to resolve pixel ownership when multiple relocation influences overlap. |
 
