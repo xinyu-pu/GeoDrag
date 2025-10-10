@@ -1,0 +1,33 @@
+# model configs
+base_model: 'runwayml/stable-diffusion-v1-5'
+unet_path: 'SimianLuo/LCM_Dreamshaper_v7'
+vae_path: 'default'
+depth_predictor: 
+  encoder: 'vitl'
+  pretrained: 'checkpoints/depth_anything_v2_vitl.pth'
+
+# drag configs
+inversion_strength: 0.7
+n_inference_step: 10
+guidance_scale: 1.0
+gamma: 1.0
+upper_scale: 5.0
+lower_scale: 0.0
+alpha: 1.0
+beta: 1.0
+eta: 0.3
+tau: 1.0
+points_scale: 1.0
+fill_mode: 'interpolation'
+interpolation_model: 'static'
+relocation_model: 'first-win'
+
+# lora configs (optional)
+lora: 
+lora_configs: 
+#   lora_step: 80
+#   lora_lr: 0.0005
+#   lora_batch_size: 4
+#   lora_rank: 16
+#   save_interval: 10
+#   which_lora: '80'

@@ -1,0 +1,6 @@
+app_results/
+checkpoints/
+GeoDrag-interpolation-static-first-win/
+GeoDrag-interpolation-static-first-win-eta0.3/
+**/__pycache__/
+datasets/
