@@ -19,7 +19,8 @@
 This is a research project, NOT a commercial product. Users are granted the freedom to create images using this tool, but they are expected to comply with local laws and utilize it in a responsible manner. The developers do NOT assume any responsibility for potential misuse by users.
 
 ## News and Updates
-* [Oct 10] Released the implementation code of GeoDrag.
+* 🚨 Released the implementation code of GeoDrag.
+* 🚨 **Paper Portal for Top Conferences in the Field of Artificial intelligence: [CV_Paper_Portal](https://hongsong-wang.github.io/CV_Paper_Portal/)**
 
 ## Installation
 > **Recommended environment:** Linux system with an NVIDIA GPU.  
