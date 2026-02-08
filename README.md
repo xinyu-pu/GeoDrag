@@ -21,6 +21,7 @@ This is a research project, NOT a commercial product. Users are granted the free
 ## News and Updates
 * 🚨 Released the implementation code of GeoDrag.
 * 🚨 **Paper Portal for Top Conferences in the Field of Artificial intelligence: [CV_Paper_Portal](https://hongsong-wang.github.io/CV_Paper_Portal/)**
+* 🚨 **[Abstract Paper Portal of ICLR 2026](https://hongsong-wang.github.io/ICLR2026_Abstract/)**
 
 ## Installation
 > **Recommended environment:** Linux system with an NVIDIA GPU.  
